@@ -10,7 +10,7 @@ def ds_price(pair, network, exchange, native=False, pricechange=False, liquidity
         ep = "optimism/"
     elif network == "polygon":
         ep = "polygon/"
-
+# LP Address from Dexscreener
     if exchange == "velodromeV2":
         pairs = {
             "ITP-USDC": "0xb84c932059a49e82c2c1bb96e29d59ec921998be",
