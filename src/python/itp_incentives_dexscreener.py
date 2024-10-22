@@ -27,7 +27,7 @@ def ds_price(pair, network, exchange, native=False, pricechange=False, liquidity
             "sUSD-USDC": "0x252cbdff917169775be2b552ec9f6781af95e7f6",
             "MTA-USDC": "0x8453cc52f2108ff9d1636b6a108db06ac137b72f",
             "LUSD-USDC": "0xf04458f7b21265b80fc340de7ee598e24485c5bb",
-            "WLD-ITP": "0x1d543e0f4e77ae517cef496f3e25938a218c49c9",
+            "ITP-WLD": "0x1d543e0f4e77ae517cef496f3e25938a218c49c9",
             "ITP-opxVELO": "0xb0f97aef89a6d7fba969c0067de1a54cde4b2f8f"
         }
         c = pairs.get(pair, "")
@@ -85,7 +85,7 @@ def ds_price(pair, network, exchange, native=False, pricechange=False, liquidity
 
 
 # Main logic to query multiple pairs and calculate liquidity and price
-lps = ["ITP-USDC", "ITP-wstETH", "ITP-WBTC", "ITP-DHT", "ITP-xOpenX", "ITP-VELO", "ITP-OP", "WLD-ITP", "ITP-opxVELO"]
+lps = ["ITP-USDC", "ITP-wstETH", "ITP-WBTC", "ITP-DHT", "ITP-xOpenX", "ITP-VELO", "ITP-OP", "ITP-WLD", "ITP-opxVELO"]
 
 usd_liquidity = []
 prices = []
